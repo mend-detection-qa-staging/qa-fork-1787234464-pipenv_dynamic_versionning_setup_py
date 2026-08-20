@@ -1,6 +1,6 @@
 {
-    "scanSettings": {
-   "configMode": "AUTO",
+  "scanSettings": {
+    "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
     "baseBranches": []
@@ -13,7 +13,7 @@
     "snippetSize": 10
   },
   "checkRunSettings": {
-    "strictMode": "failure",
+    "strictMode": "warning",
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true
@@ -35,12 +35,12 @@
       "enabled": true
     }
   },
-   "imageSettings":{
-       "imageTracing":{
-           "enableImageTracingPR": false,
-           "addRepositoryCoordinate": false,
-           "addDockerfilePath": false,
-           "addMendIdentifier": false
-       }
-   }
+  "imageSettings": {
+    "imageTracing": {
+      "enableImageTracingPR": false,
+      "addRepositoryCoordinate": false,
+      "addDockerfilePath": false,
+      "addMendIdentifier": false
+    }
+  }
 }
